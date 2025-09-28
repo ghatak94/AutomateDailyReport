@@ -27,8 +27,9 @@ Create a list named `DailyReports` with these columns:
 |-------------|-------------|-----------------------------------|
 | Title       | Single line | Task Title                        |
 | Status      | Choice      | Not Started / In Progress / Done  |
-| By          | Person/Name | Assigned Employee                 |
-
+| AssignedTo  | Person/Name | Assigned Employee                 |
+| Priority    | Choice      | Low, Medium, High                 |
+| Due Date    | Date        | deadline date                     |
 ---
 
 ## 🔄 Flow Steps
